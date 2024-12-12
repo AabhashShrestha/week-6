@@ -56,7 +56,7 @@ namespace SydneyHotel
 
         static string GetCustomerName()
         {
-            Console.WriteLine("Enter Customer Name:");
+            Console.WriteLine("Please Enter Customer Name:");
             return Console.ReadLine();
         }
 
@@ -64,7 +64,7 @@ namespace SydneyHotel
         {
             while (true)
             {
-                Console.WriteLine("Enter number of nights (1-20):");
+                Console.WriteLine("Enter number of nights from 1 t0 20 :");
                 if (int.TryParse(Console.ReadLine(), out int nights) && nights >= 1 && nights <= 20)
                     return nights;
 
