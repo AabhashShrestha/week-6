@@ -46,7 +46,7 @@ namespace SydneyHotel
                 Console.WriteLine("________________________________________");
             }
 
-            // Display summary
+            // Display summary of the customer
             DisplaySummary(customers);
 
             // Pause to allow the user to view the summary
